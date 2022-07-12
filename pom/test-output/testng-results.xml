@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12257" started-at="2022-07-12T14:03:56Z" finished-at="2022-07-12T14:04:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12257" started-at="2022-07-12T14:03:56Z" finished-at="2022-07-12T14:04:08Z">
+      <class name="TestCases.Test_PendingLeaveRequest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestCases.Test_PendingLeaveRequest@6e0e048a]" name="launchBrowser" is-config="true" duration-ms="15046" started-at="2022-07-12T14:03:41Z" finished-at="2022-07-12T14:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyRecords()[pri:0, instance:TestCases.Test_PendingLeaveRequest@6e0e048a]" name="verifyRecords" duration-ms="6726" started-at="2022-07-12T14:03:56Z" finished-at="2022-07-12T14:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecords -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.Test_PendingLeaveRequest@6e0e048a]" name="tearDown" is-config="true" duration-ms="1211" started-at="2022-07-12T14:04:08Z" finished-at="2022-07-12T14:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Test_PendingLeaveRequest -->
+      <class name="TestCases.Test_UserRole">
+        <test-method status="PASS" signature="userInfo()[pri:0, instance:TestCases.Test_UserRole@5bc79255]" name="userInfo" duration-ms="5449" started-at="2022-07-12T14:04:03Z" finished-at="2022-07-12T14:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userInfo -->
+      </class> <!-- TestCases.Test_UserRole -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

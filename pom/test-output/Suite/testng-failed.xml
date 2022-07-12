@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.Test_UserRole">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="userInfo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.Test_UserRole -->
+      <class name="TestCases.Test_PendingLeaveRequest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyRecords"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.Test_PendingLeaveRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
